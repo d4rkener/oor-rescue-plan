@@ -33,6 +33,10 @@ video {
   video {
     width: 50%;
     height: 50%;
-    object-fit: contain;
+    object-fit: fill;
+  }
+
+  video[poster] {
+    border: 1px solid #ccc;
   }
 }
